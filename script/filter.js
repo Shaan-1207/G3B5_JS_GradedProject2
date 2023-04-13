@@ -105,7 +105,7 @@ function displayfilter(data, k) {
 
     // for displaying Work Experience
     let company = document.querySelector(".company")
-    company.innerText = `${data.resume[k].work["company name"]}`
+    company.innerText = `${data.resume[k].work["Company Name"]}`
 
     let position = document.querySelector(".workingpostion")
     position.innerText = `${data.resume[k].work.Position}`
@@ -137,7 +137,7 @@ function displayfilter(data, k) {
 
     //for displaying internship
     let intern_company = document.querySelector(".intern_company")
-    intern_company.innerText = `${data.resume[k].Internship["company name"]}`
+    intern_company.innerText = `${data.resume[k].Internship["Company Name"]}`
 
     let intern_postion = document.querySelector(".intern_postion")
     intern_postion.innerText = `${data.resume[k].Internship.Position}`
