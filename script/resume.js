@@ -6,7 +6,7 @@ let z = 1 // used for passing array elements
 
 // for reading json file
 $(document).ready(function () {
-    $.getJSON("../resume-template/resources/data/Data.json", function (data) {
+    $.getJSON("resources/data/Data.json", function (data) {
         document.querySelector(".errorpage").style.display = "none"
         resumeData = data
         display(resumeData, 0)
@@ -167,7 +167,7 @@ function display(resumeData, k) {
     let company = document.querySelector(".company")
     company.innerText = `${resumeData.resume[k].work["Company Name"]}`
 
-    let position = document.querySelector(".workingpostion")
+    let position = document.querySelector(".work-position")
     position.innerText = `${resumeData.resume[k].work.Position}`
 
     let startdate = document.querySelector(".sd")

@@ -6,7 +6,7 @@ input.addEventListener("keypress", function (event) {
 
     if (event.keyCode === 13) {
         $(document).ready(function () {
-            $.getJSON("../resume-template/resources/data/Data.json", function (data) {
+            $.getJSON("resources/data/Data.json", function (data) {
 
                 document.getElementById("prev").style.visibility = "visible"
                 document.getElementById("next").style.visibility = "visible"

@@ -1,6 +1,6 @@
 let username, password;
 const loginForm = document.querySelector("#login-form");
-const errorDiv = document.querySelector(".error-message");
+const errorDiv = document.querySelector(".error-msg");
 
 loginForm.addEventListener("submit", function(event) {
   event.preventDefault();
