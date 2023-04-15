@@ -16,6 +16,7 @@ input.addEventListener("keypress", function (event) {
                 btn = null
                 let arr = []
                 let k = 0
+                
                 for (i = 0; i <= 5; i++) {
                     if ((data.resume[i].basics.AppliedFor).toLowerCase() == input.value.toLowerCase()) {
 
@@ -74,7 +75,7 @@ function displayfilter(data, k) {
     // for displaying personal information    
     let names = document.querySelector(".names")
     names.innerText = `${data.resume[k].basics.name}`
-    let AppliedFor = document.querySelector(".AppliedFor")
+    let AppliedFor = document.querySelector(".applied")
     AppliedFor.innerText = `${data.resume[k].basics.AppliedFor}`
 
     let phone = document.querySelector(".phone")
@@ -107,7 +108,7 @@ function displayfilter(data, k) {
     let company = document.querySelector(".company")
     company.innerText = `${data.resume[k].work["Company Name"]}`
 
-    let position = document.querySelector(".workingpostion")
+    let position = document.querySelector(".work-position")
     position.innerText = `${data.resume[k].work.Position}`
 
     let startdate = document.querySelector(".sd")

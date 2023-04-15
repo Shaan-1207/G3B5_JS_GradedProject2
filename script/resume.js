@@ -134,7 +134,7 @@ function display(resumeData, k) {
     // for displaying personal information    
     let names = document.querySelector(".names")
     names.innerText = `${resumeData.resume[k].basics.name}`
-    let AppliedFor = document.querySelector(".AppliedFor")
+    let AppliedFor = document.querySelector(".applied")
     AppliedFor.innerText = `${resumeData.resume[k].basics.AppliedFor}`
 
     let phone = document.querySelector(".phone")

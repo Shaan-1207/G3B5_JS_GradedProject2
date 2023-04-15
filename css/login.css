@@ -42,7 +42,7 @@ input[type="password"] {
 
 }
 
-.error-message {
+.error-msg {
   color: red;
   margin-top: 10px;
 }
