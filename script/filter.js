@@ -16,7 +16,7 @@ input.addEventListener("keypress", function (event) {
                 btn = null
                 let arr = []
                 let k = 0
-                
+
                 for (i = 0; i <= 5; i++) {
                     if ((data.resume[i].basics.AppliedFor).toLowerCase() == input.value.toLowerCase()) {
 

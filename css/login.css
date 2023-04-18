@@ -1,11 +1,12 @@
 .login-form {
-  margin: 8rem auto ;
+  margin: 8rem auto;
   width: 30%;
   text-align: center;
   border: 1px solid rgb(204, 173, 114);
   border-radius: 10px;
-  box-shadow: 1px 2px 2px  #888888;;
-  padding: 5px 25px ;
+  box-shadow: 1px 2px 2px #888888;
+  ;
+  padding: 5px 25px;
 }
 
 .form-group {
@@ -27,6 +28,7 @@ input[type="password"] {
   box-sizing: border-box;
 }
 
+
 .submit-button {
   background-color: #4CAF50;
   color: white;
@@ -36,7 +38,7 @@ input[type="password"] {
   cursor: pointer;
 }
 
-.submit-button:hover{
+.submit-button:hover {
   background-color: #37c03c;
   border: .5px solid black;
 

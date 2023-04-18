@@ -209,7 +209,7 @@ function display(resumeData, k) {
 
     let intern_summary = document.querySelector(".intern_summary")
     intern_summary.innerText = `${resumeData.resume[k].Internship.Summary}`
-    
+
     //for displaying achievement
     for (i = 1; i <= ((resumeData.resume[k].achievements.Summary).length); i++) {
         achievelist = document.querySelector(".achievements")
