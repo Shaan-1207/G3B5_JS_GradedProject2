@@ -93,7 +93,7 @@ input.nosubmit {
 .apply {
     text-align: center;
     color: white;
-    font-size: medium;
+    font-size: 20px;
 }
 
 
@@ -188,7 +188,7 @@ button:hover {
 
 .header p,
 .applied {
-    font-weight: 900;
+    font-weight: 100px;
 
 }
 
