@@ -11,7 +11,7 @@ input.addEventListener("keypress", function (event) {
                 document.getElementById("prev").style.visibility = "visible"
                 document.getElementById("next").style.visibility = "visible"
                 document.querySelector(".errorpage").style.display = "none"
-                document.querySelector(".resumebox").style.display = "grid"
+                document.querySelector(".resume-container").style.display = "grid"
                 z = 1
                 btn = null
                 let arr = []
@@ -37,7 +37,7 @@ input.addEventListener("keypress", function (event) {
 
                 } else {
                     document.querySelector(".errorpage").style.display = "flex"
-                    document.querySelector(".resumebox").style.display = "none"
+                    document.querySelector(".resume-container").style.display = "none"
                     document.getElementById("prev").style.visibility = "hidden"
                     document.getElementById("next").style.visibility = "hidden"
                 }
