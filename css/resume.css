@@ -23,16 +23,16 @@ body {
 }
 
 input {
-    width: 16vw;
+    width: 19vw;
     padding: 5px;
-    border: 1px solid grey;
-    border-radius: 15px;
+    border: 1px solid rgb(162, 204, 182);
+    border-radius: 20px;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
 input[type=search]:focus {
-    outline: .1px solid rgb(165, 165, 238);
+    outline: .1px solid rgb(83, 116, 99);
 }
 
 .nosubmit {
@@ -64,15 +64,11 @@ input.nosubmit {
 
 .header {
     grid-area: header;
-    /* border-radius: 35px 10px 0 0; */
-    height: 20vh;
     display: flex;
     justify-content: center;
     background-color: rgb(83, 116, 99);
+    border-bottom: 3px solid rgb(162, 204, 182);
 }
-
-
-
 
 .content {
     grid-area: content;
@@ -111,10 +107,8 @@ img {
 
 .sidebar {
     grid-area: sidebar;
-    padding: 5.2% 5% 0 0;
-}
-
-.info {
+    width: 19vw;
+    border-right: 1px solid rgb(83, 116, 99);
     background-color: rgb(162, 204, 182);
 }
 
@@ -132,10 +126,10 @@ img {
     color: white;
     border-radius: 0px 10px 10px 0px;
     padding-left: 5px;
+
 }
 
 .main {
-    padding-top: 3%;
     padding-right: 8%;
 }
 
@@ -150,7 +144,7 @@ img {
 
 
 button {
-    width: 75px;
+    width: 100px;
     margin-top: 2%;
     margin-bottom: 2%;
     background-color: rgb(162, 204, 182);
@@ -174,7 +168,7 @@ button:hover {
 
 .errorpage {
     outline: 1px solid rgb(180, 179, 179);
-    height: 30vh;
+    height: 50vh;
     width: 80%;
     background-image: url(../resources/img/error-img.jpg);
     background-repeat: no-repeat;

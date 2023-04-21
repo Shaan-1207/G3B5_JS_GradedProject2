@@ -2,7 +2,7 @@
   margin: 8rem auto;
   width: 35%;
   text-align: center;
-  border: 1px solid green;
+  border: 1px solid rgb(83, 116, 99);
   box-shadow: 1px 2px 2px #888888;
   padding: 35px 25px;
   font-family: sans-serif;
@@ -23,14 +23,14 @@
   color: white;
   min-width: 5%;
   text-align: center;
-  outline: 2px solid green;
 }
 
 
 input[type="text"],
 input[type="password"] {
   width: 86.9%;
-  padding: 14px;
+  padding: 10px;
+  padding-top: 14px;
   border: 1px solid #ccc;
   box-sizing: border-box;
   margin: 10px -5px;
@@ -40,7 +40,7 @@ input[type="password"] {
 input[type="text"]:focus,
 input[type="password"]:focus {
   outline: none;
-  border-color: green;
+  border-color: rgb(49, 88, 68);
 }
 
 
@@ -50,18 +50,18 @@ input[type="password"]:focus {
   background-color: rgb(83, 116, 99);
   color: white;
   padding: 10px 50px 10px 50px;
-  border: 2px solid black;
-  width: 97%;
+  box-shadow: 0px 0px 5px 5px rgba(83, 116, 99, 0.2);
+  width: 100%;
   cursor: pointer;
   margin: 5px 0;
+  margin-left: 2px;
   font-size: larger;
 }
 
 .submit-button:hover {
   background-color: rgb(49, 88, 68);
-  border: 2px solid black;
+  box-shadow: 0px 0px 5px 5px rgba(83, 116, 99, 0.5);
   color: white;
-
 }
 
 .error-msg {
